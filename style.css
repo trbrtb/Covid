@@ -1,0 +1,48 @@
+.pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background: #fff url(https://gu-st.ru/covid-web-st/static-pages-assets/svg/HEX_blue.svg) no-repeat center center;
+    box-shadow: 0 0 0 rgba(204, 169, 44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.container-app-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -61px 0 0 -61px;
+    width: 122px;
+    height: 122px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(https://gu-st.ru/covid-web-st/static-pages-assets/svg/HEX.svg) no-repeat center center
+}
+
+.app-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -50px 0 0 -50px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url(https://gu-st.ru/covid-web-st/static-pages-assets/svg/gos_logo_mobile.svg) no-repeat center center
+}
+
+@keyframes pulse {
+    from {
+        transform: scale3d(.6, .6, .6);
+        opacity: .4
+    }
+    to {
+        transform: scale3d(1.10, 1.10, 1.10);
+        opacity: 0
+    }
+}
