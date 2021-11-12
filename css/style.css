@@ -90,6 +90,10 @@ body {
     margin: 0 auto
 }
 
+a {
+    cursor: pointer;
+}
+
 .header {
     margin-top: 52px;
     margin-bottom: 32px;
